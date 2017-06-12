@@ -4,6 +4,11 @@ This module links [Codeception](https://github.com/codeception) to the [SilverSt
 
 This allows you to use Codeception to run Functional tests off of SilverStripe.
 
+### Notice
+
+This is a very early pre-alpha version. Currently it simply allows passing through to `Director::test`. Missing features
+include fixture, DB reset after tests run and more.
+
 ## Installation
 
 `composer require dhensby/codeception-silverstripe --dev`
