@@ -2,22 +2,24 @@
   "name": "dhensby/codeception-silverstripe",
   "description": "SilverStripe Framwork Module for Codeception",
   "require": {
-	"codeception/codeception": "^2.3"
+    "codeception/codeception": "^2.3"
   },
   "license": "BSD 3-Clause",
   "authors": [
-	{
-	  "name": "Daniel Hensby",
-	  "email": "dhensby@silverstripe.com"
-	}
+    {
+      "name": "Daniel Hensby",
+      "email": "dhensby@silverstripe.com"
+    }
   ],
   "minimum-stability": "dev",
-  "psr-4": {
-	"Codeception\\": "src/"
+  "autoload": {
+    "psr-4": {
+      "Codeception\\": "src/"
+    }
   },
   "extra": {
-	"branch-alias": {
-	  "dev-master": "0.1.x-dev"
-	}
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
   }
 }
