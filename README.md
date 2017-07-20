@@ -29,7 +29,7 @@ actor: FunctionalTester
 modules:
     enabled:
         # add a framework module here
-        - SilverStripe
+        - SilverStripe3
         - \Helper\Functional
 ```
 
