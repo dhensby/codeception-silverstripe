@@ -15,6 +15,12 @@ class SilverStripe4 extends Framework implements ActiveRecord
      */
     protected $kernel;
 
+    public function _initialize()
+    {
+        parent::_initialize();
+        require_once FRAMEWORK_PATH . '/tests/bootstrap/environment.php';
+    }
+
     public function _beforeSuite($settings = [])
     {
         parent::_beforeSuite($settings);
